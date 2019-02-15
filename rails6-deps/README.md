@@ -1,5 +1,16 @@
 # OIAX Docker Image for Rails 6 development
 
+## Summary
+
+* Alpine 3.9
+* Ruby 2.6.1
+* PostgreSQL 11.1
+* Node.js 10.14.2
+* Yarn 1.12.3
+* Rubygems 3.0.1
+* Bundler 1.17.2
+* User `devel` (sudoer; nopasswd)
+
 ## Building a docker image
 
 ```
@@ -22,7 +33,7 @@ $ docker ps -a # All containers
 ## Logging into the conatiner
 
 ```
-$ docker exec -it rails6-deps bash
+$ docker exec -it --user devel rails6-deps bash
 ```
 
 ## Stopping the container
