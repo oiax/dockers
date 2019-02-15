@@ -1,0 +1,3 @@
+#!/bin/bash
+docker stop rails6-deps
+docker rm rails6-deps

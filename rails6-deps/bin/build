@@ -1,0 +1,2 @@
+#!/bin/bash
+docker build -t oiax/rails6-deps .

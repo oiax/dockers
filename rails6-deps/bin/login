@@ -1,0 +1,2 @@
+#!/bin/bash
+docker exec -it --user devel rails6-deps bash
