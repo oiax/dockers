@@ -9,6 +9,6 @@ RUN apk add --no-cache bash yarn postgresql-client postgresql-dev sudo \
 RUN adduser -u 1000 -s /bin/bash -D devel \
     && echo "devel ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
-WORKDIR /tmp
+WORKDIR /home/devel
 
 EXPOSE 3000
