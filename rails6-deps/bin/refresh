@@ -3,4 +3,4 @@ docker stop rails6-deps
 docker rm rails6-deps
 docker build -t oiax/rails6-deps .
 docker run -itd --name rails6-deps oiax/rails6-deps:latest
-docker exec -it --user devel rails6-deps bash
+docker exec -it rails6-deps bash

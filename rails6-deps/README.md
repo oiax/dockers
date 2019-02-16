@@ -9,7 +9,6 @@
 * Yarn 1.12.3
 * Rubygems 3.0.1
 * Bundler 1.17.2
-* User `devel` (sudoer; nopasswd)
 
 ## Building a docker image
 
