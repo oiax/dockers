@@ -4,11 +4,14 @@
 
 * Alpine 3.9
 * Ruby 2.6.1
-* PostgreSQL 11.1
+* PostgreSQL Client 11.1
 * Node.js 10.14.2
 * Yarn 1.12.3
 * Rubygems 3.0.1
 * Bundler 1.17.2
+* Vim 8.1
+* Git 2.20
+* OpenSSH 7.9
 
 ## Building a docker image
 
