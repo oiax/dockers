@@ -1,0 +1,3 @@
+#!/bin/bash
+docker stop phx_1_4
+docker rm phx_1_4

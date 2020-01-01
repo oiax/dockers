@@ -1,0 +1,6 @@
+#!/bin/bash
+docker stop phx_1_4
+docker rm phx_1_4
+docker build -t oiax/phx_1_4 .
+docker run -itd --name phx_1_4 oiax/phx_1_4:latest
+docker exec -it phx_1_4 bash

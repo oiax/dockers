@@ -1,0 +1,2 @@
+#!/bin/bash
+docker build -t oiax/phx_1_4 .

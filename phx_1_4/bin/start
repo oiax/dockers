@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -itd --name phx_1_4 oiax/phx_1_4:latest
